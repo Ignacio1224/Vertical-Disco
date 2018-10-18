@@ -3,12 +3,29 @@
 * @Author: Ignacio Cabrera - Matias Schmid
 */
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* NAV BAR */
-nav {}
+nav {
+    
+}
 
-nav ul {}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
 
-nav ul li {}
+nav ul li {
+    width: 20%;
+    float: left;
+}
 
-nav ul li a {}
+nav ul li a, nav ul li a:link {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
