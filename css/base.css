@@ -3,29 +3,127 @@
 * @Author: Ignacio Cabrera - Matias Schmid
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* NAV BAR */
-nav {
-    
-}
+nav {}
 
 nav ul {
     list-style-type: none;
     overflow: hidden;
+    background-color: #000000;
 }
 
 nav ul li {
     width: 20%;
     float: left;
+    text-align: center;
 }
 
-nav ul li a, nav ul li a:link {
-    background-color: #000000;
+nav ul li a,
+nav ul li a:link {
+    margin: 1em 0em 1em 0em;
     color: #FFFFFF;
     text-decoration: none;
     display: block;
+}
+
+nav ul li input {
+    margin: 1em 0em 1em 0em;
+    display: block;
+}
+
+/* Consola Numark */
+#mezcladora-audio {
+    background-image: url(./../img/Consola\ Numark.jpg);
+    background-position-y: -12em;
+    height: 24em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0.8em 0em 0.8em 0em;
+}
+
+/* Separador */
+#separador {
+    height: 4em;
+    background-color: #000000;
+}
+
+/* Contenedor Centrado */
+.centrado {
+    width: 60%;
+    margin: 4em auto;
+}
+
+/* Ordenar elementos Flotantes */
+.agrupador {
+    margin: 2em 0;
+    overflow: hidden;
+}
+
+/* Tamaño de las imagenes de los discos */
+figure img {
+    width: 100%;
+}
+
+/* Decks de los discos */
+#discosV figure {
+    width: 20%;
+    margin-right: 6%;
+    float: left;
+}
+
+#discosV figure:last-child {
+    margin-right: 0;
+}
+
+/* Titulo Destacado */
+#destacadoTitulo {
+    padding-left: 20%;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+/* Seccion Destacado */
+
+#destacadoSeccion div {
+    width: 30%;
+    margin-right: 5%;
+    float: left;
+}
+
+#destacadoSeccion div:last-child {
+    margin-right: 0;
+}
+
+#destacadoSeccionction div figure img {
+    width: 100%;
+}
+
+#destacadoSeccion div p {
+    margin-top: 1em;
+}
+
+ol {
+    margin-top: 1em;
+    list-style-position: inside;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+}
+
+footer div {
+    padding-left: 20%;
+    margin-right: 10%;
+    color: #FFFFFF;
+    float: left;
+}
+
+footer div:last-child {
+    margin-right: 0;
 }
