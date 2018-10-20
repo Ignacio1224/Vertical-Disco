@@ -3,14 +3,22 @@
 * @Author: Ignacio Cabrera - Matias Schmid
 */
 
+
+/* Reset All */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* NAV BAR */
-nav {}
 
+/* Body */
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* NAV BAR */
 nav ul {
     list-style-type: none;
     overflow: hidden;
@@ -33,8 +41,11 @@ nav ul li a:link {
 
 nav ul li input {
     margin: 1em 0em 1em 0em;
+    border-radius: 6px;
+    font-size: 1em;
     display: block;
 }
+
 
 /* Consola Numark */
 #mezcladora-audio {
@@ -43,14 +54,18 @@ nav ul li input {
     height: 24em;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 0.8em 0em 0.8em 0em;
+    /* margin: 0.8em 0em 0.8em 0em; */
+    padding: 0.8em 0;
+    border-bottom: 3em solid #000000;
 }
 
+
 /* Separador */
-#separador {
+/* #separador {
     height: 4em;
     background-color: #000000;
-}
+} */
+
 
 /* Contenedor Centrado */
 .centrado {
@@ -58,16 +73,19 @@ nav ul li input {
     margin: 4em auto;
 }
 
+
 /* Ordenar elementos Flotantes */
 .agrupador {
     margin: 2em 0;
     overflow: hidden;
 }
 
+
 /* Tamaño de las imagenes de los discos */
 figure img {
     width: 100%;
 }
+
 
 /* Decks de los discos */
 #discosV figure {
@@ -80,6 +98,7 @@ figure img {
     margin-right: 0;
 }
 
+
 /* Titulo Destacado */
 #destacadoTitulo {
     padding-left: 20%;
@@ -87,8 +106,8 @@ figure img {
     background-color: #000000;
 }
 
-/* Seccion Destacado */
 
+/* Seccion Destacado */
 #destacadoSeccion div {
     width: 30%;
     margin-right: 5%;
@@ -111,6 +130,7 @@ ol {
     margin-top: 1em;
     list-style-position: inside;
 }
+
 
 /* Footer */
 footer {
