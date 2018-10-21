@@ -33,10 +33,24 @@ nav ul li {
 
 nav ul li a,
 nav ul li a:link {
+    background-color: #000000;
     margin: 1em 0em 1em 0em;
     color: #FFFFFF;
     text-decoration: none;
     display: block;
+}
+
+nav ul li a:hover,
+nav ul li a:link:hover {
+    color: rgba(200,0,254, 0.6);
+}
+
+nav ul li h4 {
+    margin: 1em 0em 1em 0em;
+    border-radius: 6px;
+    font-size: 1em;
+    display: block;
+    color: #FFFFFF;
 }
 
 nav ul li input {
@@ -44,6 +58,10 @@ nav ul li input {
     border-radius: 6px;
     font-size: 1em;
     display: block;
+}
+
+.selected {
+    color: rgba(254,0,200, 0.2)
 }
 
 
@@ -82,19 +100,19 @@ nav ul li input {
 
 
 /* Tamaño de las imagenes de los discos */
-figure img {
+.discosV figure img {
     width: 100%;
 }
 
 
 /* Decks de los discos */
-#discosV figure {
+.discosV figure {
     width: 20%;
     margin-right: 6%;
     float: left;
 }
 
-#discosV figure:last-child {
+.discosV figure:last-child {
     margin-right: 0;
 }
 
@@ -113,6 +131,9 @@ figure img {
     margin-right: 5%;
     float: left;
 }
+#destacadoSeccion div figure img {
+    width: 100%;
+}
 
 #destacadoSeccion div:last-child {
     margin-right: 0;
@@ -129,6 +150,104 @@ figure img {
 ol {
     margin-top: 1em;
     list-style-position: inside;
+}
+
+
+#agrupadorppal div,
+#agrupadorppal section {
+    float: left;
+}
+
+#agrupadorsec {
+    display: block;
+    width: 65%;
+    margin-right: 5%;
+}
+
+#agrupadorsec h2 {
+    margin-bottom: 1em;
+}
+
+/* Mas Visitado */
+#mas-visitado h4 {
+    width: 30%;
+}
+
+#mas-visitado figure, #mas-visitado div {
+    float: left;
+}
+
+#mas-visitado figure {
+    width: 30%;
+    margin-right: 5%;
+}
+
+#mas-visitado figure img {
+    margin-top: 0.8em;
+    width: 100%;
+}
+
+#mas-visitado figure figcaption {
+    margin-top: 1em;
+    border: 1px solid #000000;
+}
+
+#mas-visitado div {
+    width: 65%;
+}
+
+#mas-visitado div div {
+    margin-top: 1em;
+    width: 100%;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+#mas-visitado div div ol {
+    margin-bottom: 1em;
+    font-size: 0.6em;
+}
+
+/* Mas Vendido */
+#mas-vendido {
+    margin-top: 2em;
+    border: 1px solid #000000;
+}
+
+#mas-vendido figure,
+#mas-vendido p {
+    float: left;
+}
+
+#mas-vendido figure {
+    width: 30%;
+    margin-right: 5%;
+}
+
+#mas-vendido figure img {
+    margin-left: 5%;
+    width: 100%;
+}
+
+#mas-vendido p {
+    width: 60%;
+}
+
+/* Recomendados */
+#recomendados {
+    width: 30%;
+    display: block;
+}
+
+#recomendados figure img {
+    width: 20%;
+    float: left;
+}
+
+#recomendados figure figcaption {
+    float: left;
+    width: 80%;
+    font-size: 0.6em;
 }
 
 
