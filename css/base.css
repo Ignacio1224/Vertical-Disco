@@ -72,17 +72,18 @@ nav ul li input {
     height: 24em;
     background-repeat: no-repeat;
     background-size: 100%;
-    /* margin: 0.8em 0em 0.8em 0em; */
-    padding: 0.8em 0;
-    border-bottom: 3em solid #000000;
+    margin: 0.8em 0em 0.8em 0em;
+    /* padding: 0.8em 0;
+    border-bottom: 3em solid #000000; */
 }
 
 
-/* Separador */
-/* #separador {
-    height: 4em;
+/* Titulos Principales */
+h1 {
+    padding-left: 20%;
+    color: #FFFFFF;
     background-color: #000000;
-} */
+}
 
 
 /* Contenedor Centrado */
@@ -117,20 +118,13 @@ nav ul li input {
 }
 
 
-/* Titulo Destacado */
-#destacadoTitulo {
-    padding-left: 20%;
-    color: #FFFFFF;
-    background-color: #000000;
-}
-
-
 /* Seccion Destacado */
 #destacadoSeccion div {
     width: 30%;
     margin-right: 5%;
     float: left;
 }
+
 #destacadoSeccion div figure img {
     width: 100%;
 }
@@ -153,6 +147,7 @@ ol {
 }
 
 
+/* Pagina 2 */
 #agrupadorppal div,
 #agrupadorppal section {
     float: left;
@@ -167,6 +162,7 @@ ol {
 #agrupadorsec h2 {
     margin-bottom: 1em;
 }
+
 
 /* Mas Visitado */
 #mas-visitado h4 {
@@ -208,6 +204,7 @@ ol {
     font-size: 0.6em;
 }
 
+
 /* Mas Vendido */
 #mas-vendido {
     margin-top: 2em;
@@ -232,6 +229,15 @@ ol {
 #mas-vendido p {
     width: 60%;
 }
+
+#mas-vendido span a img {
+    width: 2em;
+}
+
+#mas-vendido span a:first-child {
+    margin-left: 2em;
+}
+
 
 /* Recomendados */
 #recomendados {
@@ -265,4 +271,9 @@ footer div {
 
 footer div:last-child {
     margin-right: 0;
+}
+
+footer div span img {
+    margin-top: 0.8em;
+    width: 2em;
 }
