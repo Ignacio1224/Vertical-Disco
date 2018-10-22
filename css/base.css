@@ -73,8 +73,7 @@ nav ul li input {
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0.8em 0em 0.8em 0em;
-    /* padding: 0.8em 0;
-    border-bottom: 3em solid #000000; */
+    background-attachment: fixed;
 }
 
 
@@ -235,14 +234,17 @@ ol {
 }
 
 #mas-vendido span a:first-child {
-    margin-left: 2em;
+    margin-left: 2.2em;
 }
 
 
 /* Recomendados */
 #recomendados {
     width: 30%;
-    display: block;
+}
+
+#recomendados h3 {
+    margin-top: 2em;
 }
 
 #recomendados figure img {
