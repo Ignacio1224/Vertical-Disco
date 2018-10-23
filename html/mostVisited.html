@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Pagina descriptiva de los articulos mas visitados del sitio web" />
 
     <!-- BASE CSS -->
     <link rel="stylesheet" href="./../css/base.css">
@@ -16,7 +17,7 @@
 </head>
 
 <body>
-
+    <!-- Menu de navegacion -->
     <nav>
         <ul>
             <li>
@@ -36,7 +37,9 @@
     <div class="centrado">
         <div class="agrupador" id="agrupadorppal">
             <div class="agrupador" id="agrupadorsec">
-                <section id="mas-visitado">
+
+                <!-- Seccion del disco mas visitado -->
+                <section id="mas-visitado" class="agrupador">
                     <h2>Más Visitado</h2>
                     <h4>Toto - 40 Trips Arround The Sun</h4>
                     <figure>
@@ -56,7 +59,8 @@
                             ut. Consequat do minim officia dolor sint id ullamco aute ullamco dolor ad.
                         </p>
                         <div>
-                            <h4>Canciones</h4>
+                            <!-- Temas del disco -->
+                            <h4>Temas del disco</h4>
                             <ol>
                                 <li>Alone</li>
                                 <li>Spanish sea</li>
@@ -77,29 +81,38 @@
                     </div>
                 </section>
 
-                <section id="mas-vendido">
+                <!-- Seccion del mas vendido -->
+                <section id="mas-vendido" class="agrupador">
                     <h2>Más Vendido</h2>
-                    <div class="agrupador">
-                        <figure>
-                            <img src="./../img/Michael Jackson Disc.jpg" alt="Ilustracion del disco vinilo de Michael Jackson">
 
-                        </figure>
+                    <figure>
+                        <!-- Caratula del disco -->
+                        <img src="./../img/Michael Jackson Disc.jpg" alt="Ilustracion del disco vinilo de Michael Jackson">
+                    </figure>
 
-                        <p>Non velit consequat est minim quis. Mollit ad minim nostrud laborum occaecat laboris sit.
-                            Irure esse dolore est do ad qui commodo laborum exercitation enim fugiat amet mollit
-                            ullamco. Ullamco labore pariatur aute tempor officia. Qui elit mollit aliqua incididunt
-                            irure ad enim. Cillum deserunt veniam adipisicing tempor velit anim mollit eu est deserunt
-                            ad. Reprehenderit duis et esse velit labore nisi irure occaecat officia.</p>
-                        <span>
-                            <a href="https://www.instagram.com/?hl=es-la"><img src="./../img/instagram.svg" alt="Icono de Instagram"></a>
-                            <a href="https://es-la.facebook.com/"><img src="./../img/facebook.svg" alt="Icono de Facebook"></a>
-                            <a href="https://twitter.com/?lang=es"><img src="./../img/twitter.svg" alt="Icono de Twitter"></a>
-                        </span>
-                    </div>
+                    <!-- Descripcion del disco -->
+                    <p>
+                        Non velit consequat est minim quis. Mollit ad minim nostrud laborum occaecat laboris sit.
+                        Irure esse dolore est do ad qui commodo laborum exercitation enim fugiat amet mollit
+                        ullamco. Ullamco labore pariatur aute tempor officia. Qui elit mollit aliqua incididunt
+                        irure ad enim. Cillum deserunt veniam adipisicing tempor velit anim mollit eu est deserunt
+                        ad. Reprehenderit duis et esse velit labore nisi irure occaecat officia.
+                    </p>
+
+                    <!-- Enlaces para compartir -->
+                    <span>
+                        <a href="https://www.instagram.com/?hl=es-la"><img src="./../img/instagram.svg" alt="Icono de Instagram"
+                                title="Compartir en Instagram"></a>
+                        <a href="https://es-la.facebook.com/"><img src="./../img/facebook.svg" alt="Icono de Facebook"
+                                title="Compartir en Facebok"></a>
+                        <a href="https://twitter.com/?lang=es"><img src="./../img/twitter.svg" alt="Icono de Twitter"
+                                title="Compartir en Twitter"></a>
+                    </span>
                 </section>
             </div>
 
-            <section id="recomendados">
+            <!-- Seccion de recomendados -->
+            <aside>
                 <h3>Recomendados</h3>
                 <figure class="agrupador">
                     <img src="./../img/Def Leppard Disc.jpg" alt="Ilustracion del disco vinilo de la banda Def Leppard">
@@ -164,9 +177,10 @@
                         <p>The Story So Far</p>
                     </figcaption>
                 </figure>
-            </section>
+            </aside>
         </div>
 
+        <!-- Vanner de discos -->
         <section class="agrupador discosV">
             <figure>
                 <img src="./../img/Def Leppard Disc.jpg" alt="Ilustracion del disco vinilo de la banda Def Leppard">
@@ -202,23 +216,25 @@
         </section>
     </div>
 
+    <!-- Pie de pagina -->
     <footer class="agrupador">
+
+        <!-- Derechos de autor -->
         <div>
             <h4>Vertical-Disco</h4>
             <p>
-                Creado por: Ignacio Cabrera - Matias Schmid
+                Creado por: Ignacio Cabrera
             </p>
             <p>
                 Todos los derechos son reservados al autor
             </p>
         </div>
 
+        <!-- Iconos -->
         <div>
-            <span>
-                <img src="./../img/share.svg" alt="Icono de Compartir">
-                <img src="./../img/world.svg" alt="Icono del mundo">
-                <img src="./../img/uruguay.svg" alt="Bandera de uruguay">
-            </span>
+            <img src="./../img/share.svg" alt="Icono de Compartir">
+            <img src="./../img/world.svg" alt="Icono del mundo">
+            <img src="./../img/uruguay.svg" alt="Bandera de uruguay">
         </div>
     </footer>
 </body>

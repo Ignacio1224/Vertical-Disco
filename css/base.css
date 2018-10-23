@@ -148,12 +148,11 @@ ol {
 
 /* Pagina 2 */
 #agrupadorppal div,
-#agrupadorppal section {
+#agrupadorppal aside {
     float: left;
 }
 
 #agrupadorsec {
-    display: block;
     width: 65%;
     margin-right: 5%;
 }
@@ -206,7 +205,6 @@ ol {
 
 /* Mas Vendido */
 #mas-vendido {
-    margin-top: 2em;
     border: 1px solid #000000;
 }
 
@@ -234,25 +232,26 @@ ol {
 }
 
 #mas-vendido span a:first-child {
-    margin-left: 2.2em;
+    margin-left: 2.6em;
 }
 
 
 /* Recomendados */
-#recomendados {
+aside {
+    margin-top: 2em;
     width: 30%;
 }
 
-#recomendados h3 {
+aside h3 {
     margin-top: 2em;
 }
 
-#recomendados figure img {
+aside figure img {
     width: 20%;
     float: left;
 }
 
-#recomendados figure figcaption {
+aside figure figcaption {
     float: left;
     width: 80%;
     font-size: 0.6em;
@@ -275,7 +274,7 @@ footer div:last-child {
     margin-right: 0;
 }
 
-footer div span img {
+footer div img {
     margin-top: 0.8em;
     width: 2em;
 }
